@@ -1,0 +1,95 @@
+@media (max-width: 1300px) {
+   body{
+      align-items:flex-start !important;
+      .slider {
+         margin-top: 5rem;
+         justify-content: center !important;
+         height: auto !important;
+         .slider__person.active{
+            //flex-direction: column-reverse;
+            margin-bottom: 40px;
+            .slider__text{
+               //position: relative !important;
+               display: flex;
+               bottom: -220px;
+               left: 0;
+               right: 0;
+               margin: auto;
+               text-align: center;
+               width: 100%;
+               padding: 80px 50px 0 50px;
+               .slider__text--quotes{
+                  top: 60px;
+                  right: 0;
+                  left: 0;
+                  margin: auto;
+               }
+               .slider__text--p{
+                  font-size: 1.5em;
+               }
+               .slider__text--name{
+                  flex-direction: column;
+                  p{
+                     padding-top: 5px;
+                     margin-left: 0 !important;
+                  }
+               }
+            }
+            .slider__img{
+               margin: 0 90px;
+               .slider__img--pattern{
+                  top: -22px;
+                  left: -35px;
+                  max-width:120%;
+                  max-height:120%;
+               }
+            }
+         }
+         .slider__btn{
+            bottom: 25px;
+            left: 0;
+            right: 0;
+            margin: auto;
+         }
+      }
+   }
+}
+
+@media (max-width: 700px) {
+   .slider {
+      .slider__person.active{
+         .slider__text{
+            display: flex;
+            bottom: -300px !important;
+            .slider__text--quotes{
+               top: 60px;
+               right: 0;
+               left: 0;
+               margin: auto;
+            }
+         }
+      }
+   }    
+}
+
+@media (max-width: 400px) {
+   .slider {
+      .slider__person.active{
+         .slider__text{
+            padding-top: 0 !important;
+            bottom: -220px !important;
+               .slider__text--quotes{
+                  top: -20px !important;
+               }
+               .slider__text--p{
+                  font-size: 18px !important;
+               }
+         }
+      }
+      .slider__img{
+         .slider__img--pattern{
+            max-width:150% !important;
+         }
+      }
+   }
+}
