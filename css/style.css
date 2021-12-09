@@ -16,7 +16,7 @@
           margin: auto;
           text-align: center;
           width: 100%;
-          padding: 80px 50px 0 50px; }
+          padding: 0 50px; }
           body .slider .slider__person.active .slider__text .slider__text--quotes {
             top: 60px;
             right: 0;
